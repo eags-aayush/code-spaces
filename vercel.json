@@ -8,15 +8,6 @@
         "backend": {
             "entrypoint": "backend",
             "routePrefix": "/_/backend"
-        },
-        "middleware": [
-            {
-                "name": "rewrite-urls",
-                "options": {
-                    "source": "/_next",
-                    "destination": "/"
-                }
-            }
-        ]
+        }
     }
 }
